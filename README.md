@@ -1,77 +1,42 @@
-EN
-Roblox Mass Unblocker
-A simple browser extension that automates the unblocking process on Roblox. No more clicking "Unblock" and "Confirm" hundreds of times manually.
+ROBLOX MASS UNBLOCKER
+Efficient. Minimalist. Automated.
+A lightweight browser extension designed to automate the tedious process of clearing your blocked list on Roblox. No more manual confirmations for every single user.
 
-Installation
-Since this is a custom extension, you need to load it manually:
+🛠 INSTALLATION GUIDE
+Since this extension is in development, you need to load it manually into your browser:
 
-Download all project files into a single folder on your computer.
+Download the source: Save all project files (manifest.json, popup.html, popup.js) into a dedicated folder.
 
-Open your browser and go to chrome://extensions/.
+Open Extensions page: In your Chromium-based browser (Chrome, Edge, or Brave), go to chrome://extensions/.
 
-Toggle the "Developer mode" switch in the top right corner.
+Enable Developer Mode: Toggle the switch in the top right corner.
 
-Click "Load unpacked" and select the folder where you saved the files.
+Load the project: Click the Load unpacked button and select the folder containing your files.
 
-How to use
-Open the Roblox Privacy settings page.
+📖 HOW TO USE
+To ensure the extension works correctly, follow these specific steps:
 
-Scroll down to the Blocked Users section and click the Show button.
+Step 1: Navigate to the Roblox Privacy Settings:
 
-Make sure your URL looks like this: https://www.roblox.com/my/account#!/privacy/BlockedUsers.
+https://www.roblox.com/my/account#!/privacy
 
-Open the extension from your browser toolbar.
+Step 2: Scroll to the bottom and click the Show button under the Blocked Users section.
 
-Choose your language and hit the Start button.
+Step 3: Confirm your URL matches exactly:
 
-If you want to stop the process before it finishes, just click Stop.
+https://www.roblox.com/my/account#!/privacy/BlockedUsers
 
-Tech stack
-The project is built using basic web tools to keep it lightweight:
+Step 4: Open the extension, select your language, and press START.
 
-JavaScript for the automation logic and DOM manipulation.
+Note: Do not close the tab while the process is running. The script will automatically scroll and unblock users until the list is empty.
 
-HTML and CSS for the iOS-inspired glassmorphism interface.
+🧪 TECHNOLOGIES & STACK
+Built with a focus on performance and a modern aesthetic, using no external dependencies:
 
-Chrome Extension API (Manifest V3) for browser compatibility.
+Logic: Vanilla JavaScript (ES6+) using the Chrome Extension API (Manifest V3).
 
-Local Storage to remember your language preference.
+Interface: Custom CSS with iOS-inspired Glassmorphism and blur effects.
 
-RUS
-Roblox Mass Unblocker
-Простое расширение для браузера, которое автоматизирует процесс разблокировки в Roblox. Вам больше не придется вручную нажимать «Разблокировать» и «Подтвердить» сотни раз.
+Storage: Chrome Local Storage API to persist user language preferences.
 
-Установка
-Так как это кастомное расширение, его нужно установить вручную:
-
-Скачайте все файлы проекта в одну папку на вашем компьютере.
-
-Откройте браузер и перейдите на страницу chrome://extensions/.
-
-Включите «Режим разработчика» в правом верхнем углу.
-
-Нажмите «Загрузить распакованное расширение» и выберите папку с файлами.
-
-Как пользоваться
-Зайдите в настройки приватности вашего аккаунта Roblox.
-
-Прокрутите вниз до раздела заблокированных пользователей и нажмите кнопку Show.
-
-Убедитесь, что ссылка в браузере выглядит так: https://www.roblox.com/my/account#!/privacy/BlockedUsers.
-
-Откройте расширение через панель инструментов браузера.
-
-Выберите язык и нажмите кнопку «Запустить».
-
-Если нужно прервать работу, нажмите «Остановить».
-
-Технологии
-Проект собран на базовых инструментах, чтобы расширение оставалось легким:
-
-JavaScript для логики автоматизации и работы со страницей.
-
-HTML и CSS для создания интерфейса в стиле iOS с эффектом матового стекла.
-
-Chrome Extension API (Manifest V3) для работы в современных браузерах.
-
-Local Storage для сохранения выбранного языка.
+Automation: High-speed DOM manipulation with built-in safety delays to prevent rate-limiting.
